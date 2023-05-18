@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "envvars@0.1.0",
+      "/Users/geaninne/Downloads/victory/mobileapp"
+    ]
+  ],
+  "_from": "envvars@0.1.0",
+  "_id": "envvars@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-Avf3JxnaEcbBiIymbEGOfPcLG3Y=",
+  "_location": "/envvars",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "envvars@0.1.0",
+    "name": "envvars",
+    "escapedName": "envvars",
+    "rawSpec": "0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "0.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/envvars/-/envvars-0.1.0.tgz",
+  "_spec": "0.1.0",
+  "_where": "/Users/geaninne/Downloads/victory/mobileapp",
+  "author": {
+    "name": "Jeduan Cornejo",
+    "email": "jeduan@gmail.com",
+    "url": "http://jeduan.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jeduan/envvars/issues"
+  },
+  "dependencies": {
+    "camelcase": "^1.1.0"
+  },
+  "description": "> Parse exported environment variables from a string",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/jeduan/envvars#readme",
+  "keywords": [
+    "environment variables",
+    "env vars",
+    "unix"
+  ],
+  "license": "MIT",
+  "name": "envvars",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeduan/envvars.git"
+  },
+  "scripts": {
+    "test": "standard && node_modules/.bin/tape test.js"
+  },
+  "version": "0.1.0"
+}
